@@ -1,0 +1,27 @@
+.project {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+}
+
+.project:hover {
+	background-color: white;
+	color: #313347;
+	border-radius: 10px;
+}
+
+.project > h4 {
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.project > .MuiSvgIcon-root {
+	color: white;
+	font-size: xx-large;
+}
+
+.project:hover > .MuiSvgIcon-root {
+	color: #313347;
+}

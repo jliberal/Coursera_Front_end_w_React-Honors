@@ -1,0 +1,38 @@
+.login {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-image: url('../assets/back.svg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login__center {
+	display: flex;
+	justify-content: space-around;
+}
+
+.login__text {
+	flex: 0.3;
+	display: grid;
+	place-items: center;
+}
+
+.login__logo {
+	flex: 0.3;
+}
+
+.login__text > button {
+	width: 300px;
+	background-color: white;
+	color: #8e94f2;
+	font-weight: 800;
+	font-size: large;
+}
+
+.login__text > button:hover {
+	width: 300px;
+	color: white;
+	background-color: #8e94f2;
+}

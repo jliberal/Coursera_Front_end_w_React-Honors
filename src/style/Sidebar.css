@@ -1,0 +1,12 @@
+.sidebar {
+	padding: 25px 10px;
+	flex: 0.1;
+	background-color: #8895b3;
+	height: 100vh;
+}
+
+@media (max-width: 1200px) {
+	.sidebar {
+		flex: 0.15;
+	}
+}
