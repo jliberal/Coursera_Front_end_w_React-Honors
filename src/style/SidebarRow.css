@@ -25,3 +25,8 @@
 .sidebarRow:hover > .MuiSvgIcon-root {
 	color: #313347;
 }
+
+.sidebarRow__link {
+	text-decoration: none;
+	cursor: pointer;
+}

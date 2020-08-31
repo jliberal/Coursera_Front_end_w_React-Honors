@@ -1,0 +1,35 @@
+.home {
+	display: grid;
+	place-items: center;
+	height: 90vh;
+	background-image: url('../assets/back.svg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	flex: 1;
+}
+
+.home__center {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.home__text {
+	flex: 0.3;
+	display: grid;
+	place-items: center;
+	color: white;
+}
+
+.home__text > h3 > b {
+	color: #313347;
+}
+
+.home__logo {
+	flex: 0.3;
+}
+
+.home__logo > img {
+	height: 400px;
+}

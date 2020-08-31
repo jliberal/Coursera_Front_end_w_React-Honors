@@ -14,6 +14,11 @@ const reducer = (state, action) => {
 				...state,
 				user: action.user,
 			};
+		case actionTypes.SET_PROJECTS_WINDOW:
+			return {
+				...state,
+				sideProjectBar: action.sideProjectBar,
+			};
 		default:
 			return state;
 	}
